@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakład Pogrzebowy "Ostatni Krok" - Kwidzyn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Zakład Pogrzebowy "Ostatni Krok"</h1>
+            <p class="slogan">Z nami przejdziesz przez ostatni krok</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">O nas</a></li>
+            <li><a href="#services">Usługi</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>O nas</h2>
+            <p>
+                Zakład Pogrzebowy "Ostatni Krok" powstał na przedmieściach Kwidzynia. 
+                Jesteśmy wiodącą i szanowaną firmą w branży, oferującą kompleksowe wsparcie 
+                w trudnych chwilach. Zapewniamy pełen profesjonalizm oraz troskę o każdy szczegół.
+            </p>
+        </section>
+
+        <section id="services">
+            <h2>Nasze usługi</h2>
+            <ul>
+                <li>Zakup trumien i urn</li>
+                <li>Organizacja styp</li>
+                <li>Transport zwłok</li>
+                <li>Wypełnianie formalności</li>
+                <li>Kremacja ciał</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>
+                Adres: Przedmieścia Kwidzynia, 82-500 Kwidzyn<br>
+                Telefon: <a href="tel:+48123456789">+48 123 456 789</a><br>
+                Email: <a href="mailto:kontakt@ostatnikrok.pl">kontakt@ostatnikrok.pl</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Zakład Pogrzebowy "Ostatni Krok". Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
