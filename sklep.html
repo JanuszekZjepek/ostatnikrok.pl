@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep - Zakład Pogrzebowy "Ostatni Krok"</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function dodajDoKoszyka(nazwa, cena) {
+            alert(`Dodano "${nazwa}" do koszyka. Cena: ${cena} zł.`);
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Zakład Pogrzebowy "Ostatni Krok"</h1>
+            <p class="slogan">Z nami przejdziesz przez ostatni krok</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">O nas</a></li>
+            <li><a href="index.html#services">Usługi</a></li>
+            <li><a href="index.html#contact">Kontakt</a></li>
+            <li><a href="sklep.html">Sklep</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Sklep z trumnami</h2>
+            <div class="shop-item">
+                <img src="trumna1.jpg" alt="Trumna drewniana" class="product-image">
+                <h3>Trumna Drewniana</h3>
+                <p>Cena: 2000 zł</p>
+                <button onclick="dodajDoKoszyka('Trumna Drewniana', 2000)">Dodaj do koszyka</button>
+            </div>
+            <div class="shop-item">
+                <img src="trumna2.jpg" alt="Trumna dębowa" class="product-image">
+                <h3>Trumna Dębowa</h3>
+                <p>Cena: 3000 zł</p>
+                <button onclick="dodajDoKoszyka('Trumna Dębowa', 3000)">Dodaj do koszyka</button>
+            </div>
+            <div class="shop-item">
+                <img src="trumna3.jpg" alt="Trumna metalowa" class="product-image">
+                <h3>Trumna Metalowa</h3>
+                <p>Cena: 2500 zł</p>
+                <button onclick="dodajDoKoszyka('Trumna Metalowa', 2500)">Dodaj do koszyka</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Zakład Pogrzebowy "Ostatni Krok". Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
