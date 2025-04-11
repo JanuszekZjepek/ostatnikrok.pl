@@ -1,0 +1,157 @@
+/* Reset i podstawowe style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Nawigacja */
+  header {
+    background-color: #222;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sekcja główna */
+  section {
+    padding: 2rem 0;
+  }
+  
+  h2,
+  h3 {
+    margin-top: 0;
+  }
+  
+  .highlight {
+    color: #8a2be2;
+    font-weight: bold;
+  }
+  
+  /* Przyciski i linki */
+  .btn-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #8a2be2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-link:hover {
+    background-color: #6b1dbd;
+  }
+  
+  /* Opinie */
+  .opinion-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .opinion {
+    max-width: 45%;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Stopka */
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Opinie na stronie głównej */
+  .opinions-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .opinion-box {
+    flex: 1;
+    background-color: #f9f9f9;
+    border-left: 4px solid #8a2be2;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  /* Dodatkowe style dla strony O nas */
+  .value-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .value-block {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-left: 5px solid #8a2be2;
+    border-radius: 6px;
+  }
+  
+  .value-block h4 {
+    margin-top: 0;
+    color: #8a2be2;
+  }
+  
+  /* Responsywność */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .opinion-section,
+    .opinions-wrapper {
+      flex-direction: column;
+    }
+  
+    .opinion,
+    .opinion-box {
+      max-width: 100%;
+    }
+  
+    .value-list {
+      flex-direction: column;
+    }
+  }
+  
